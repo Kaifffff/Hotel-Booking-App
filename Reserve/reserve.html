@@ -82,28 +82,53 @@
     </nav> 
 
     <!-- Desription  -->
-    <div class="container d-flex justify-content-center mt-5">
-        <div class="card mt-5" style="width: 40rem;">
-  <div class="row p-2">
-    <div class="col-12 mb-2">
-        <img src="https://images.unsplash.com/photo-1601003243101-806fe77dd4b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" height="200px" class="card-img-top" alt="...">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col">
+                <form class="row g-3 needs-validation mt-5" novalidate>
+  <div class="col-md-12 position-relative">
+    <label for="validationTooltip01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationTooltip01" required>
+    <div class="valid-tooltip">
+      Looks good!
     </div>
-    <div class="col-12 col-sm-6 mb-2">
-        <img src="https://images.unsplash.com/photo-1667403206415-0e51a54727d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
-    </div>
-    <div class="col-12 col-sm-6 mb-2">
-        <img src="https://images.unsplash.com/photo-1667403206415-0e51a54727d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
-    </div>
-    
-     </div>
-  <div class="card-body">
-    <h5 class="card-title">Home In Pune</h5>
-    <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <span><a href="/index.html" class="btn btn-primary">Go Back</a></span>
-    <span><a href="/Reserve/reserve.html" class="btn btn-primary">Reserve</a></span>
   </div>
+  <div class="col-md-12 position-relative">
+    <label for="validationTooltip02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationTooltip02" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-12 position-relative">
+    <label for="validationTooltip02" class="form-label">Check In Date</label>
+    <input type="date" class="form-control" id="validationTooltip02" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+
+  <div class="col-md-12 position-relative">
+    <label for="validationTooltip02" class="form-label">Check Out Date</label>
+    <input type="date" class="form-control" id="validationTooltip02" required>
+    <div class="valid-tooltip">
+      Looks good!
+    </div>
+  </div>
+
+  <div class="col-md-12 position-relative">
+  <label for="dateInput" class="form-label">Pay</label>
+  <input type="number" class="form-control" id="dateInput" value="1200" disabled>
 </div>
+
+  <div class="mb-3">
+    <button class="btn btn-primary" type="submit">Reserve</button>
+  </div>
+</form>
+            </div>
+            <div class="col-3"></div>
+        </div>
     </div>
 </body>
 </html>
