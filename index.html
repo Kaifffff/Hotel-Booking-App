@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Booking App</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header section -->
+    <!-- navbar -->  
+   <nav
+      class="navbar navbar-expand-lg fixed-top"
+      style="background-color: #e3f2fd"
+      data-bs-theme="light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-dark" href="#"
+          ><i class="fa-solid fa-compass"></i
+        ></a>
+        <button
+          class="navbar-toggler text-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#footer">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#"></a>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-user"></i>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="authentication/LoginPage.html">Login</a></li>
+               <li><a class="dropdown-item" href="authentication/SignUp.html">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav> 
+
+    <!-- Main section -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-5 mt-5 mb-5">
+
+
+        <!-- Page 1 -->
+        <div class="col" >
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+              style="border-radius: 16px 16px 0 0;"
+              src="https://images.unsplash.com/photo-1667403206415-0e51a54727d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Home In Pune</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="pages/CheckOutpage1.html" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+          
+        </div>
+
+        <!-- Page 2 -->
+
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://plus.unsplash.com/premium_photo-1681922761648-d5e2c3972982?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGhvdGVsJTIwYm9va2luZ3xlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="pages/CheckOutpage2.html" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+
+        <!-- Page 3 -->
+
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://plus.unsplash.com/premium_photo-1686167989783-3eca82199fbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tJTIwaW1hZ2VzfGVufDB8fDB8fHww"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Room in Kharadi , Pune</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="pages/CheckOutpage3.html" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+
+        <!-- Page 4 -->
+
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://images.unsplash.com/photo-1601003243101-806fe77dd4b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Room in Viman nagar , Pune</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="pages/CheckOutpage4.html" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+
+
+        <!-- Page 5  -->
+
+        
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://media.istockphoto.com/id/185086520/photo/luxury-hotel-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=7i-6KHpV1Ab4sSFC4sRKIZAPy1dxg9wL7vC2fkw6Dfk="
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="pages/CheckOutpage5.html" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://media.istockphoto.com/id/1482326431/photo/interior-bedroom-wall-mockup-3d-rendering-3d-illustration.webp?a=1&b=1&s=612x612&w=0&k=20&c=B5W37mRcaDdZKnTAkozLqr11WmfGjjL7ixFzZ1uvjgs="
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://plus.unsplash.com/premium_photo-1670360414903-19e5832f8bc4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://media.istockphoto.com/id/2161170677/photo/sunlight-entrance-from-a-large-window-with-a-white-and-black-curtain-next-to-a-stylish-bed.webp?a=1&b=1&s=612x612&w=0&k=20&c=GSLbUD6G12rPkArP2IIL5KodBT-dD4tYFoSm-qSwHQQ="
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://media.istockphoto.com/id/185083188/photo/luxury-shangri-la-hotel-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=pJs1KNBcI5hpaLMydDTYa-tvw1TbPIYO8UtEEraMN78="
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://media.istockphoto.com/id/1129076301/photo/chinese-style-bedroom-interior.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZrIfWsdxPYF5S3WxLoU-jCG7T1_OHQeSRuTbPOHA-6U="
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img
+            style="border-radius: 16px 16px 0 0;"
+              src="https://media.istockphoto.com/id/2161174444/photo/minimalism-modern-interior-design-with-stylish-couch-and-armchair-white-decoration-panoramic.webp?a=1&b=1&s=612x612&w=0&k=20&c=5dVFrq2hX0je82qkyUeT_9tsgGF-RXFJ6gq1_LHOA-g="
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img style="border-radius: 16px 16px 0 0;" src="https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmVkcm9vbXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img style="border-radius: 16px 16px 0 0;" src="https://plus.unsplash.com/premium_photo-1684338795288-097525d127f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 project" style="border-radius: 16px;">
+            <img style="border-radius: 16px 16px 0 0;" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnVybml0dXJlfGVufDB8fDB8fHww" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Row House in Mumbai</h5>
+              <p class="card-text"><span>&#8377; 1200 for 2 night</span></p>
+            </div>
+            <div class="overlay d-flex justify-content-center align-items-center">
+            <a href="#" class="btn btn-secondary" type="button">Check Out </a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+    
+
+    <!-- footer section  -->
+     <!-- footer -->
+       <div class="footer-container" id="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Partner with us</a></li>
+                        <li><a href="#">Ride with us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Tax Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
+                    <div class="language-selector">
+                        <i class="fas fa-globe"></i>
+                        <span>English</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <i class="far fa-copyright"></i>
+                    <span>2025 Your Company Name. All rights reserved.</span>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
